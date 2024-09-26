@@ -1,47 +1,45 @@
-# portfolio
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Varshitha Reddy Kalluru - Portfolio</title>
+    <title>Varshitha Reddy Kalluru's Portfolio</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
             margin: 0;
-            padding: 20px;
+            padding: 0;
             background-color: #f4f4f4;
         }
         header {
-            background: #35424a;
-            color: #ffffff;
-            padding: 10px 0;
+            background: #007BFF;
+            color: white;
+            padding: 10px 20px;
             text-align: center;
         }
-        h1, h2 {
-            margin: 0;
+        section {
+            padding: 20px;
+            margin: 10px;
+            background: white;
+            border-radius: 5px;
         }
         h2 {
-            margin-top: 20px;
+            color: #333;
         }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            background: #ffffff;
-            padding: 20px;
+        .contact, .education, .experience, .projects, .skills, .certifications, .achievements {
+            margin: 20px 0;
+        }
+        .project, .skill {
+            padding: 10px;
+            background: #e9ecef;
             border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .contact-info {
-            margin-bottom: 20px;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        li {
             margin: 5px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #007BFF;
+            color: white;
         }
     </style>
 </head>
@@ -49,69 +47,94 @@
 
 <header>
     <h1>Varshitha Reddy Kalluru</h1>
-    <p>Utica, New York 13502 | (315) 723-9698 | kalurv@sunypoly.edu</p>
+    <p>Utica, New York 13502 | (315) 723-9698 | <a href="mailto:kalurv@sunypoly.edu" style="color: white;">kalurv@sunypoly.edu</a></p>
 </header>
 
-<div class="container">
+<section class="contact">
+    <h2>Contact Information</h2>
+    <p>Email: <a href="mailto:kalurv@sunypoly.edu">kalurv@sunypoly.edu</a></p>
+    <p>Phone: (315) 723-9698</p>
+</section>
+
+<section class="education">
     <h2>Education</h2>
-    <ul>
-        <li><strong>State University of New York Polytechnic Institute</strong>, Utica, New York<br>
-            Master of Science in Computer and Information Sciences (Jan 2023 - Dec 2024)<br>
-            Relevant Coursework: Automata and Computability, Deep Learning, Algorithms and Complexity, Operating Systems, Machine Learning
-        </li>
-        <li><strong>KSRM College of Engineering</strong><br>
-            Bachelor of Technology in Computer Science (Aug 2018 - Aug 2022)<br>
-            Relevant Coursework: Object Oriented Programming, Python, Cyber Security, Internet of Things, Computational Mathematics
-        </li>
-    </ul>
+    <h3>State University of New York Polytechnic Institute</h3>
+    <p>Master of Science in Computer and Information Sciences (Jan 2023 - Dec 2024)</p>
+    <p>Relevant Coursework: Automata and Computability, Deep Learning, Algorithms and Complexity, Operating Systems, Machine Learning</p>
 
+    <h3>KSRM College of Engineering</h3>
+    <p>Bachelor of Technology in Computer Science (Aug 2018 - Aug 2022)</p>
+    <p>Relevant Coursework: Object Oriented Programming, Python, Cyber Security, Internet of Things, Computational Mathematics</p>
+</section>
+
+<section class="experience">
     <h2>Experience</h2>
+    <h3>Virtusa, Hyderabad, India</h3>
+    <p>Software Developer Intern (Jul 2021 - Dec 2021)</p>
     <ul>
-        <li><strong>Virtusa, Hyderabad, India</strong> - Software Developer Intern (Jul 2021 - Dec 2021)<br>
-            - Achieved 80% reduction in application build time using Python, Flask, and Django.<br>
-            - Revamped application Ant-build system to Node-build system, improving efficiency by 50%.
-        </li>
-        <li><strong>Wipro Pvt. Ltd., Chennai, India</strong> - Project Engineering (Mar 2022 - Dec 2022)<br>
-            - Worked as a Java Developer with experience in Core Java and Frontend Tools (AngularJS, HTML5, Bootstrap).
-        </li>
+        <li>Achieved performance improvements for rebuilding application build systems.</li>
+        <li>Revamped existing applications, increasing efficiency by 50%.</li>
     </ul>
 
+    <h3>Wipro Pvt. Ltd., Chennai, India</h3>
+    <p>Project Engineering (Mar 2022 - Dec 2022)</p>
+    <ul>
+        <li>Worked as a Java Developer with experience in Core Java and Frontend tools.</li>
+        <li>Hands-on experience with Hibernate and Spring Frameworks.</li>
+    </ul>
+</section>
+
+<section class="projects">
     <h2>Projects</h2>
-    <ul>
-        <li><strong>Lab Information System</strong> - Mini Project<br>
-            Automated the manual system of viewing lab details.
-        </li>
-        <li><strong>Automated Question Paper Generator</strong> - Major Project<br>
-            Developed a system for frequent generation of question papers using a vast database.
-        </li>
-        <li><strong>Exploring the Emotional Intelligence of ChatGPT</strong><br>
-            Conducted analysis and improved user experience by 30% using sentiment analysis and machine learning.
-        </li>
-        <li><strong>Movie Recommendations using AWS</strong><br>
-            Designed a recommendation system utilizing Amazon Personalize for enhanced user engagement.
-        </li>
-    </ul>
+    <div class="project">
+        <h3>Lab Information System</h3>
+        <p>Team Lead for automating lab details using Java and MySQL.</p>
+    </div>
+    <div class="project">
+        <h3>Automated Question Paper Generator</h3>
+        <p>Led a team to create a unique question paper generation system using Java and MySQL.</p>
+    </div>
+    <div class="project">
+        <h3>Exploring Emotional Intelligence of ChatGPT</h3>
+        <p>Conducted analysis on ChatGPT's emotional capabilities using machine learning.</p>
+    </div>
+    <div class="project">
+        <h3>Graphics-Based Data Visualization</h3>
+        <p>Implemented advanced visualization techniques for diverse datasets.</p>
+    </div>
+    <div class="project">
+        <h3>Movie Recommendations using AWS</h3>
+        <p>Designed a recommendation system using AWS services.</p>
+    </div>
+</section>
 
+<section class="skills">
     <h2>Skills</h2>
     <ul>
-        <li>Languages: C, C++, Python, Java, Web Development (React, PHP, HTML, CSS)</li>
-        <li>Frameworks: Bootstrap, AngularJS, ReactJS, NumPy, Pandas, Matplotlib</li>
-        <li>Tools: Jupyter, Visual Studio, AWS, MySQL, Node.js, Git</li>
-        <li>Areas of Interest: Software Development, Data Visualization, Cloud Computing</li>
+        <li>Languages: C, C++, Python, Java, HTML, CSS</li>
+        <li>Frameworks: Bootstrap, AngularJS, React, Django</li>
+        <li>Tools: Jupyter, Visual Studio, AWS, MySQL, Git</li>
     </ul>
+</section>
 
+<section class="certifications">
     <h2>Certifications</h2>
     <ul>
         <li>Python Boot Camp (Udemy)</li>
-        <li>Coding Internship by Suven Consultants (Java)</li>
-        <li>Certification in Amazon Web Services</li>
+        <li>Java Coding Internship (Suven Consultants)</li>
+        <li>AWS Certification</li>
     </ul>
+</section>
 
+<section class="achievements">
     <h2>Achievements</h2>
-    <ul>
-        <li>Lead a team to achieve Runner-up at Smart India Hackathon 2022.</li>
-    </ul>
-</div>
+    <p>Led a team and bagged the Runner-up of Smart India Hackathon 2022.</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Varshitha Reddy Kalluru</p>
+</footer>
 
 </body>
 </html>
+
